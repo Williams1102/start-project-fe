@@ -1,13 +1,15 @@
-
-
-.cardPoster {
-	z-index: 0;
+.carousel .carousel-status {
+ display: none;
 }
 
 .heightImg {
 	height: 55vw;
 }
 
+
+.cardPoster {
+	z-index: 0;
+}
 .card {
 	border: 0px;
 }

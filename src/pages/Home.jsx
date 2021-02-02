@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 import Header from "../components/navbars/Header";
 import { userActions } from "../actions/auth.action";
-import Poster from "../components/layouts/cards/cardPoster";
+import Poster from "../components/layouts/cards/Poster";
 
 const HomePage = (props) => {
   const clickLogout = (e) => {
@@ -13,6 +13,7 @@ const HomePage = (props) => {
   return (
     <div>
       <Header loggedIn={props.loggedIn} handleClick={clickLogout} />
+
       <Poster />
     </div>
   );
