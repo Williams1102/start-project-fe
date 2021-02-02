@@ -1,12 +1,43 @@
 .header {
-	height: 70px;
-	background-color: rgb(20, 20, 20);
+	background-color: rgba(20, 20, 20, 0);
 	color: rgb(255, 255, 255);
-	font-weight: 200;
+	font-weight: 300;
+	z-index: 2;
+	
 }
 
+.headerContainer {
+	position: absolute;
+	width: 100%;
+}
 
+.btn-danger, .btn-danger:hover, .btn-danger:focus  {
+	background-color: rgb(255, 0, 0);
+	border-color:rgb(255, 0, 0);
+	color: rgb(255, 255, 255);
+	box-shadow: none;
+}
 
 .header .active {
 	font-weight: bold;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,.btn-primary,.btn-primary:hover,.btn-primary:focus, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+	color: #fff;
+	background-color: rgba(20, 20, 20, 0);
+	border-color: rgba(20, 20, 20, 0);
+}
+.btn.focus, .btn:focus {
+	outline: none;
+	border: none;
+}
+
+.btn {
+	color: #fff;
+}
+
+.cssMenu, .cssItem{
+	color: #fff;
+	background-color: rgba(20, 20, 20, 0.7);
+	text-align: right;
 }

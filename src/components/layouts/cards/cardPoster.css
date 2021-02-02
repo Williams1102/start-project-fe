@@ -1,0 +1,47 @@
+
+
+.cardPoster {
+	z-index: 0;
+}
+
+.heightImg {
+	height: 55vw;
+}
+
+.card {
+	border: 0px;
+}
+.card-text {
+	font-size: 1.5vw;
+	font-weight: 400;
+}
+.card-title {
+	font-size: 1.25rem;
+
+}
+
+
+.btnPlay {
+	background-color: rgb(255, 255, 255);
+	color: rgb(20,20,20);
+	border-radius: 4px;
+	width: 12vw;
+	height: 5vw;
+}
+
+.btnInfo{
+	background-color: rgba(138, 138, 138, 0.81);
+	color: rgb(250, 250, 250);
+	width: 15vw;
+	height: 5vw;
+}
+
+.btnPlay:hover {
+	background-color: rgba(255, 255, 255, 0.81);
+	
+}
+
+.bgcl-40 {
+ background-color:  rgba(20, 20, 20, 0.508);
+}
+
